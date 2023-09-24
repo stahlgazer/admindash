@@ -1,0 +1,1 @@
+export { MainPageIcon } from "./MainPageIcon";

@@ -1,0 +1,1 @@
+export { BrowserTemplate } from "./BrowserTemplate";
