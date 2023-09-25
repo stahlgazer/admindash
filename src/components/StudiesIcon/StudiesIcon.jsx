@@ -8,7 +8,7 @@ import React from "react";
 export const StudiesIcon = ({ className }) => {
   return (
     <div
-      className={`w-[25px] h-[28px] bg-[url(https://c.animaapp.com/U7DZF6MV/img/studies-icon-2.svg)] bg-[100%_100%] ${className}`}
+      className={`cursor-pointer w-[25px] h-[28px] bg-[url(https://c.animaapp.com/U7DZF6MV/img/studies-icon-2.svg)] bg-[100%_100%] ${className}`}
     />
   );
 };

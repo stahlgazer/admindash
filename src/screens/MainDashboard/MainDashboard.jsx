@@ -19,7 +19,7 @@ export const MainDashboard = () => {
             <div className="absolute w-[106px] h-[1246px] top-0 left-0 bg-[#0050b3]" />
             <div className="absolute w-[12px] h-[58px] top-[353px] left-0 bg-[rgb(102,150,209)] rounded-[8px]" />
             <MainPageIcon className="!absolute !left-[39px] !top-[368px]" />
-            <QuestionsIcon className="!absolute !w-[24px] !h-[24px] !top-[1102px] !left-[41px]" />
+            <QuestionsIcon className="cursor-pointer !absolute !w-[24px] !h-[24px] !top-[1102px] !left-[41px]" />
             <img
               className="absolute w-[71px] h-px top-[786px] left-[18px] object-cover"
               alt="Divide line"
@@ -48,50 +48,50 @@ export const MainDashboard = () => {
             <SettingsIcon className="!absolute !left-[39px] !top-[820px]" />
             <ManageBidsWAlerts className="!absolute !left-[39px] !top-[446px]" />
           </div>
-          <div className="absolute w-[79px] h-[40px] top-[1094px] left-[151px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
-            <div className="absolute w-[65px] top-[10px] left-[6px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
+          <div className="cursor-pointer absolute w-[79px] h-[40px] top-[1094px] left-[151px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+            <div className=" absolute w-[65px] top-[10px] left-[6px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
               Previous
             </div>
           </div>
-          <div className="absolute w-[79px] h-[40px] top-[1094px] left-[468px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[79px] h-[40px] top-[1094px] left-[468px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <div className="absolute w-[65px] top-[10px] left-[6px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
               Next
             </div>
           </div>
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[234px] bg-[#0050b3] rounded-[3px]">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[234px] bg-[#0050b3] rounded-[3px]">
             <div className="w-[16px] top-[11px] left-[10px] [font-family:'Inter',Helvetica] font-bold text-white text-[14px] text-center absolute tracking-[0] leading-[normal]">
               1
             </div>
           </div>
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[273px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[273px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <div className="absolute w-[16px] top-[10px] left-[9px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
               2
             </div>
           </div>
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[312px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[312px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <div className="absolute w-[16px] top-[10px] left-[9px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
               3
             </div>
           </div>
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[351px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[351px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <div className="absolute w-[16px] top-[10px] left-[9px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
               4
             </div>
           </div>
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[390px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[390px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <img
               className="absolute w-[20px] h-[4px] top-[18px] left-[7px]"
               alt="Shape more"
               src="https://c.animaapp.com/U7DZF6MV/img/shape-more-9.svg"
             />
           </div>
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[429px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[429px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <div className="absolute w-[16px] top-[10px] left-[9px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
               8
             </div>
           </div>
           <div className="absolute w-[35px] h-[40px] top-[1094px] left-[1324px] bg-white rounded-[3px] border border-solid border-grey-grey-6" />
-          <div className="absolute w-[35px] h-[40px] top-[1094px] left-[1363px] bg-[#0050b3] rounded-[3px]">
+          <div className="cursor-pointer absolute w-[35px] h-[40px] top-[1094px] left-[1363px] bg-[#0050b3] rounded-[3px]">
             <div className="absolute w-[30px] top-[12px] left-[3px] [font-family:'Inter',Helvetica] font-bold text-white text-[14px] text-center tracking-[0] leading-[normal]">
               GO
             </div>
@@ -102,7 +102,7 @@ export const MainDashboard = () => {
           <p className="absolute w-[143px] top-[1106px] left-[1170px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center tracking-[0] leading-[normal]">
             Showing 1 to 9 of 22
           </p>
-          <div className="absolute w-[62px] h-[38px] top-[1096px] left-[1098px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
+          <div className="cursor-pointer absolute w-[62px] h-[38px] top-[1096px] left-[1098px] bg-white rounded-[3px] border border-solid border-grey-grey-6">
             <div className="w-[30px] top-[9px] left-[6px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] text-center absolute tracking-[0] leading-[normal]">
               09
             </div>
@@ -139,9 +139,9 @@ export const MainDashboard = () => {
           <div className="absolute top-[222px] left-[306px] [font-family:'Inter',Helvetica] font-bold text-x333333-dark-grey text-[14px] tracking-[0.70px] leading-[normal]">
             NAME
           </div>
-          <div className="absolute w-[336px] h-[40px] top-[112px] left-[549px]">
+          <div className=" absolute w-[336px] h-[40px] top-[112px] left-[549px]">
             <div className="relative w-[338px] h-[40px]">
-              <button className="w-[82px] left-[256px] absolute h-[40px] top-0 all-[unset] box-border">
+              <button className="cursor-pointer w-[82px] left-[256px] absolute h-[40px] top-0 all-[unset] box-border">
                 <div className="relative w-[80px] h-[40px] bg-daybreak-blue-blue-8 rounded-[0px_3px_3px_0px]">
                   <div className="absolute w-[52px] top-[11px] left-[19px] [font-family:'Inter',Helvetica] font-bold text-white text-[14px] tracking-[0] leading-[normal]">
                     Search
@@ -532,7 +532,7 @@ export const MainDashboard = () => {
                 II
               </div>
               <img
-                className="absolute w-[20px] h-[4px] top-[45px] left-[1248px]"
+                className="cursor-pointer absolute w-[20px] h-[4px] top-[45px] left-[1248px]"
                 alt="Shape more"
                 src="https://c.animaapp.com/U7DZF6MV/img/shape-more-8.svg"
               />

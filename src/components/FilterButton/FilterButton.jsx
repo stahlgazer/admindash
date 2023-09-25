@@ -8,7 +8,7 @@ import React from "react";
 export const FilterButton = ({ className, icon = "https://c.animaapp.com/U7DZF6MV/img/icon-1.svg" }) => {
   return (
     <div
-      className={`inline-flex items-center gap-[10px] px-[19px] py-[8px] relative bg-primary-cta-background rounded-[4px] ${className}`}
+      className={`cursor-pointer inline-flex items-center gap-[10px] px-[19px] py-[8px] relative bg-primary-cta-background rounded-[4px] ${className}`}
     >
       <div className="relative w-fit mt-[-1.50px] font-inter-bold-16px font-[number:var(--inter-bold-16px-font-weight)] text-primary-cta-text text-[length:var(--inter-bold-16px-font-size)] text-center tracking-[var(--inter-bold-16px-letter-spacing)] leading-[var(--inter-bold-16px-line-height)] whitespace-nowrap [font-style:var(--inter-bold-16px-font-style)]">
         Create new study

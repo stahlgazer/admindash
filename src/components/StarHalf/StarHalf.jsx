@@ -8,7 +8,7 @@ import React from "react";
 export const StarHalf = ({ className }) => {
   return (
     <img
-      className={`absolute w-[28px] h-[28px] top-0 left-0 ${className}`}
+      className={`cursor-pointer absolute w-[28px] h-[28px] top-0 left-0 ${className}`}
       alt="Star half"
       src="https://c.animaapp.com/U7DZF6MV/img/star-half-2.svg"
     />

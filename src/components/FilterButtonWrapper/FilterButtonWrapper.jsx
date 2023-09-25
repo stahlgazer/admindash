@@ -8,7 +8,7 @@ import React from "react";
 export const FilterButtonWrapper = ({ className }) => {
   return (
     <button
-      className={`relative w-[97px] h-[40px] bg-grey-grey-1 rounded-[4px] border-[1.5px] border-solid border-primary-cta-background all-[unset] box-border ${className}`}
+      className={`cursor-pointer relative w-[97px] h-[40px] bg-grey-grey-1 rounded-[4px] border-[1.5px] border-solid border-primary-cta-background all-[unset] box-border ${className}`}
     >
       <div className="absolute w-[45px] h-[24px] top-[6px] left-[14px] font-inter-bold-16px font-[number:var(--inter-bold-16px-font-weight)] text-primary-cta-background text-[length:var(--inter-bold-16px-font-size)] text-center tracking-[var(--inter-bold-16px-letter-spacing)] leading-[var(--inter-bold-16px-line-height)] [font-style:var(--inter-bold-16px-font-style)]">
         Filter

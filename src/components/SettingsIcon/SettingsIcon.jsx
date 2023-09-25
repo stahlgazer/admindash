@@ -8,7 +8,7 @@ import React from "react";
 export const SettingsIcon = ({ className }) => {
   return (
     <div
-      className={`w-[28px] h-[28px] bg-[url(https://c.animaapp.com/U7DZF6MV/img/settings-icon-1.svg)] bg-[100%_100%] ${className}`}
+      className={`cursor-pointer w-[28px] h-[28px] bg-[url(https://c.animaapp.com/U7DZF6MV/img/settings-icon-1.svg)] bg-[100%_100%] ${className}`}
     />
   );
 };

@@ -7,9 +7,9 @@ import React from "react";
 
 export const StatusButton = ({ className, divClassName }) => {
   return (
-    <div className={`relative w-[78px] h-[28px] bg-polar-green-green-7 rounded-[3px] ${className}`}>
+    <div className={`cursor-pointer relative w-[78px] h-[28px] bg-polar-green-green-7 rounded-[3px] ${className}`}>
       <div
-        className={`absolute w-[78px] top-[3px] left-0 [font-family:'Inter',Helvetica] font-normal text-white text-[14px] text-center tracking-[0] leading-[normal] ${divClassName}`}
+        className={`absolute w-[78px] top-[3px] left-0 [font-family:'Inter',Helvetica] font-normal text-white text-[14px] text-center tracking-[0] leading-[normal]  ${divClassName}`}
       >
         Open
       </div>

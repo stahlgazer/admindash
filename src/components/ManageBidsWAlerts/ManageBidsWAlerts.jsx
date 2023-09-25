@@ -10,7 +10,7 @@ export const ManageBidsWAlerts = ({ className }) => {
     <div className={`w-[43px] h-[34px] ${className}`}>
       <div className="relative h-[34px]">
         <img
-          className="absolute w-[28px] h-[27px] top-0 left-0"
+          className="cursor-pointer absolute w-[28px] h-[27px] top-0 left-0"
           alt="Icon sidebar"
           src="https://c.animaapp.com/U7DZF6MV/img/icon---sidebar---inactive---1--overview-1.svg"
         />
